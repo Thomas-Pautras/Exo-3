@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header .social-media a img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+header .cta .btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main .hero {
+    background: url(../assets/background-image.jpeg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+}
+
+main .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main .hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+main .hero .actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+main .hero .actions .btn, .btn-secondary {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main .hero .actions .btn {
+    background-color: #333;
+    color: white;
+}
+
+main .hero .actions .btn-secondary {
+    background-color: #007BFF;
+    color: white;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior-Entreprise</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='assets/devinci-junior.png') }}" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Nos prestations</a></li>
+                <li><a href="#">Notre équipe</a></li>
+                <li><a href="#">Actualités</a></li>
+                <li><a href="#">Nous rejoindre</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="#"><img src="{{ url_for('static', filename='assets/facebook.png') }}" alt="Facebook"></a>
+            <a href="#"><img src="{{ url_for('static', filename='assets/X_logo.png') }}" alt="X"></a>
+            <a href="#"><img src="{{ url_for('static', filename='assets/Instagram_logo.png') }}" alt="Instagram"></a>
+            <a href="#"><img src="{{ url_for('static', filename='assets/LinkedIn_logo_initials.png') }}" alt="LinkedIn"></a>
+        </div>
+        <div class="cta">
+            <a href="#" class="btn">Demander un devis</a>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>NOTRE POLYVALENCE AU SERVICE DE VOS PROJETS</h1>
+            <p>Découvrez le mouvement des Junior-Entreprises</p>
+            <div class="actions">
+                <a href="#" class="btn">DEMANDER UN DEVIS</a>
+                <a href="#" class="btn-secondary">TÉLÉCHARGER NOTRE PLAQUETTE</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
